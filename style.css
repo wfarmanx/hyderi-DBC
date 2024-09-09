@@ -1,0 +1,270 @@
+
+
+.side-img img{
+    margin-top: 50px;
+    border-radius:80px ;
+
+}
+
+.nav-item a{
+color: red;
+font-size: 20px;
+}
+
+.nav-link{
+    color: red !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.nav-link:hover{
+
+    color: black !important;
+}
+
+
+@media only screen and (max-width: 992px){
+
+    .center {
+        text-align: center;
+       
+    }
+
+    .footer-items{
+
+        margin-bottom: 20px;
+        text-align: center;
+        list-style-type: none;
+    }
+
+
+    .red{
+        text-align: center;
+        
+    }
+
+
+  
+}
+
+
+
+
+
+
+
+.text p{
+
+    text-align: justify;
+}
+
+
+.margin-top{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+
+.align-center{
+
+    text-align: center;
+    margin-bottom: 50px;
+    color: red;
+
+}
+
+.awareness-sec ul li {
+
+    font-size: 30px;
+    list-style-type: none ;
+    text-align: center;
+}
+
+
+.awareness-sec p {
+    text-align: center;
+}
+
+
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* .................form section...................................................... */
+
+
+
+
+#form-sec{
+
+    max-width: 1000px;
+    margin: 100px auto;
+    height: 600px;
+    box-shadow: 3px 3px 10px 10px whitesmoke;
+
+}
+
+
+.contact-us h1{
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline 1px;
+}
+
+
+.form-input{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr ; 
+    max-width: 800px;
+    margin: 20px auto;
+
+}
+
+
+
+   
+    
+.box{
+    border-radius: 5px;
+    height: 50px;
+    color: black;
+
+}
+
+
+
+#box-3{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+#box-4{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100px;
+
+}
+
+.form input{
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+.form textarea{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 18px;
+    resize: none;
+
+    
+}
+
+
+
+
+ #box-5 input{
+
+    background-color: red;
+    color: white;
+    border: none;
+ }
+
+
+ #box-6 input{
+    background-color: red;
+    color: white;
+    border: none;
+ }
+
+
+
+ #box-5 input:hover{
+
+    background-color: rgba(255, 0, 0, 0.336);
+    color: white;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+#box-6 input:hover{
+
+    background-color: rgba(255, 0, 0, 0.336);
+    color: white;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+
+
+
+/* .............foter section start from here .......................... */
+
+
+.footer-section{
+
+    background-color: rgb(215, 18, 18);
+    padding: 20px;
+}
+
+
+.footer h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.footer{
+    display: flex;
+    gap: 15px;
+}
+
+
+.location-icon img {
+  mix-blend-mode: multiply;
+  
+}
+
+
+.black{
+    background-color: #333333;
+}
+
+
+
+
+.footer-items{
+
+    color: white;
+}
+
+
+.footer-items h3{
+    color: red;
+}
+
+
+.equal{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
